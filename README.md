@@ -66,6 +66,8 @@ This app is a Hawaii-focused chatbot and activity explorer. It provides users wi
 -  **Pexels API**: Retrieves images related to activities to enhance the visual experience in the app.
 -  **Google Maps API**: Calculates travel times to activity locations, considering live traffic conditions.
 
+We're using Firebase App Check to monitor and protect the app's resources (e.g., Vertex AI access). This adds reCAPTCHA and other protection features that may block access if unusual activity is detected.
+
 ## Additional Notes
 - **API Keys**: Some API keys are 'exposed' in the deployed app. However, they are public-facing and don't pose a significant risk even if someone gains access to them; this applies to Pexels, Weather.gov, and Firebase sync keys.
 -  **Permissions**: The app requests location, camera, microphone, and photo permissions to provide a full-featured user experience. May not work correctly on web version.
