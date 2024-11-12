@@ -1,11 +1,12 @@
-# Summary of the App
+# akamAI Chat
+## Summary of the App
 
 This app is a Hawaii-focused chatbot and activity explorer. It provides users with information about Hawaii, including local activities and events, using Vertex AI for generating content and Google APIs for additional data. The app consists of two main functionalities:
 
 1. **Chat Interface**: Users can interact with a chatbot to ask questions about Hawaii. The chatbot uses Vertex AI to generate responses based on user queries.
 2. **Explore Page**: Displays a grid of activities related to Hawaii. Users can click on activities to view more details, including travel time and sustainability information.
 
-# Overview of Individual Code Files
+## Overview of Individual Code Files
 
 1. **main.dart**
    - **Purpose**: Initializes the Firebase app and sets up the main entry point of the application.
@@ -58,17 +59,16 @@ This app is a Hawaii-focused chatbot and activity explorer. It provides users wi
    - **Key Functions**:
      - `determinePosition`: Requests and retrieves the user's current location using the Geolocator package.
 
-# External Calls
+## External Calls
 
 -  **Vertex AI**: Used for generating chat responses and activity suggestions. The app initializes a chat session and requests content using a controlled JSON schema.
 -  **Weather API**: Fetches weather data from the National Weather Service to provide context for activity suggestions.
 -  **Pexels API**: Retrieves images related to activities to enhance the visual experience in the app.
 -  **Google Maps API**: Calculates travel times to activity locations, considering live traffic conditions.
 
-# Additional Notes
+## Additional Notes
 - **API Keys**: Some API keys are 'exposed' in the deployed app. However, they are public-facing and don't pose a significant risk even if someone gains access to them; this applies to Pexels, Weather.gov, and Firebase sync keys.
 -  **Permissions**: The app requests location, camera, microphone, and photo permissions to provide a full-featured user experience. May not work correctly on web version.
 
-
-# akamAI Chat & Explore App Demo
-- **Link**: https://drive.google.com/file/d/1dSGzSYofdswmdkbPBftIF5UJSix-wNJk
+## akamAI Chat & Explore App Video Demo
+**Link**: https://drive.google.com/file/d/1dSGzSYofdswmdkbPBftIF5UJSix-wNJk
