@@ -66,10 +66,9 @@ This app is a Hawaii-focused chatbot and activity explorer. It provides users wi
 -  **Google Maps API**: Calculates travel times to activity locations, considering live traffic conditions.
 
 # Additional Notes
+- **API Keys**: Some API keys are 'exposed' in the deployed app. However, they are public-facing and don't pose a significant risk even if someone gains access to them; this applies to Pexels, Weather.gov, and Firebase sync keys.
+-  **Permissions**: The app requests location, camera, microphone, and photo permissions to provide a full-featured user experience. May not work correctly on web version.
 
--  **Firebase Initialization**: Ensure Firebase is set up correctly with the necessary configurations and API keys.
--  **API Keys**: Securely manage API keys for Pexels, Google Maps, and any other services used.
--  **Error Handling**: Implement error handling for network requests to ensure the app fails gracefully in case of connectivity issues.
--  **Permissions**: The app requests location, camera, microphone, and photo permissions to provide a full-featured user experience.
 
-This overview provides a comprehensive understanding of the app's structure and functionality, helping new developers quickly get up to speed with the codebase.
+# akamAI Chat & Explore App Demo
+- **Link**: https://drive.google.com/file/d/1dSGzSYofdswmdkbPBftIF5UJSix-wNJk
