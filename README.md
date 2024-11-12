@@ -1,4 +1,5 @@
 # akamAI Chat
+![AkamAI Social Banner](https://raw.githubusercontent.com/HACC2024/akamAI/refs/heads/main/assets/images/akamAI%20social%20banner.png)
 ## Summary of the App
 
 This app is a Hawaii-focused chatbot and activity explorer. It provides users with information about Hawaii, including local activities and events, using Vertex AI for generating content and Google APIs for additional data. The app consists of two main functionalities:
