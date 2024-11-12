@@ -68,3 +68,7 @@ This app is a Hawaii-focused chatbot and activity explorer. It provides users wi
 # Additional Notes
 - **API Keys**: Some API keys are 'exposed' in the deployed app. However, they are public-facing and don't pose a significant risk even if someone gains access to them; this applies to Pexels, Weather.gov, and Firebase sync keys.
 -  **Permissions**: The app requests location, camera, microphone, and photo permissions to provide a full-featured user experience. May not work correctly on web version.
+
+
+# akamAI Chat & Explore App Demo
+- **Link**: https://drive.google.com/file/d/1dSGzSYofdswmdkbPBftIF5UJSix-wNJk
